@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeekPlus</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/styleQuemSomos.css">
+    <link rel="stylesheet" href="../css/stylefaleconosco.css">
+    <script src="../script.js"></script>
 </head>
 <body>
     <head>
@@ -23,7 +24,7 @@
             <nav class="navegacao">
                 <ul>
                     <li><a href="./quemsomos.html">Quem somos</a></li>
-                    <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,18 +37,17 @@
             </ul>
         </div>
     </head>
-    <main class="principal_quemsomos">
-        <img src="../assets/sobrenos.jpg" alt="">
-        <div>
-            <h2>QUEM SOMOS</h2>
-            <p>Na GeekPlus, somos mais do que uma simples loja de camisetas e acessórios. Somos um universo paralelo onde a cultura nerd e geek ganha vida! Fundada por entusiastas apaixonados, nossa missão é proporcionar uma experiência única para todos os fãs.<br><br>
-            Desde 2024, a GeekPlus tem sido o ponto de encontro para geeks de todas as idades. Nosso compromisso com a qualidade, criatividade e autenticidade é inabalável.<br><br>
-            Nossas camisetas são feitas com tecidos macios e estampas exclusivas. Além disso, oferecemos acessórios como canecas, bonés e almofadas.<br><br>
-            Organizamos lançamentos, sessões de autógrafos e eventos temáticos. Afinal, a comunidade geek merece celebrações épicas!<br><br>
-            Nossa equipe é formada por nerds de carteirinha. Estamos sempre prontos para ajudar e compartilhar nossas paixões.<br><br>
-            Seja parte da família Nerdstore e vista sua paixão com orgulho! 🤓👕🎮</p>
-        </div>
-        <div style="clear: both;"></div>
+    <main class="principal_faleconosco">
+        <form class="formulario" method="post" action="mailto:contatogeekplus@gmail.com">
+            <fieldset class="campos">
+                <legend>PREENCHA OS CAMPOS ABAIXO</legend>
+                Nome: <input type="text" name="Nome"><br><br>
+                Email: <input type="text" name="Nome"><br><br>
+                Escreva sua mensagem:<br>
+                <textarea maxlength="200" rows="5" cols="70" ></textarea><br>
+                <button type="button" onclick="funcaoEnviar()">Enviar</button>
+            </fieldset>
+        </form>
     </main>
     <footer class="rodape">
         <div>
@@ -62,7 +62,7 @@
         <div>
             <h3>INSTITUCIONAL</h3>
             <ul>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li><a href="#">Fale Conosco</a></li>
                 <li><a href="#">Política de troca e devoluções</a></li>
             </ul>
         </div>

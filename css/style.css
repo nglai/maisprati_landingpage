@@ -24,7 +24,6 @@ a {
 
 .logo {
     float: left;
-    /* border: 1px solid blue; */
     width: 29.8%;
     text-align: center;
     padding-top: 2rem;
@@ -109,7 +108,6 @@ a {
 }
 
 .principal_linha a {
-    border: 1px solid blue;
     float: left;
     width: 22%;
     height: 50vh;

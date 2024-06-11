@@ -1,0 +1,29 @@
+.principal_faleconosco {
+    height: 65vh;
+}
+
+.formulario {
+    padding: 3%;
+    margin: 0 10%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.campos {
+    padding: 2%;
+}
+
+.campos input {
+    height: 2rem;
+    width: 50%;
+}
+
+.campos input, .campos textarea {
+    font-size: 1.5rem;
+}
+
+.campos button {
+    height: 3rem;
+    width: 10%;
+    font-size: 1.5rem;
+}
