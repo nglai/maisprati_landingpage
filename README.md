@@ -15,4 +15,4 @@ CONTEÚDO MÍNIMO DA LANDING PAGE:
 - Ação de botão de chamada para ação (por exemplo, exibir uma mensagem de agradecimento ou redirecionar para outra página, utilizando JS, claro).
 - Escolha uma paleta de cores harmoniosa e fontes apropriadas.
 
-[Site] (https://website-name.com](https://nglai.github.io/maisprati_landingpage/html/faleconosco.html#)
+Site: https://website-name.com](https://nglai.github.io/maisprati_landingpage/html/faleconosco.html#
