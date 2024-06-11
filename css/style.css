@@ -109,15 +109,17 @@ a {
 }
 
 .principal_linha a {
+    border: 1px solid blue;
     float: left;
-    width: 20%;
-    height: 45vh;
-    margin: 4% 0 0 4%;
+    width: 22%;
+    height: 50vh;
+    margin: 4% 0 0 2%;
+    text-align: center;
 }
 
 .principal_linha a img {
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
 }
 
 .principal_linha a p {
