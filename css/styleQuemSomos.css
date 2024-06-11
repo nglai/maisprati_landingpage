@@ -1,0 +1,28 @@
+.principal_quemsomos {
+    height: 80vh;
+}
+.principal_quemsomos img{
+    float: left;
+    height: 20rem;
+    border-radius: 30%;
+    margin: 10% 0 0 10%;
+}
+
+.principal_quemsomos div {
+    float: right;
+    width: 50%;
+    margin: 2% 8% 0 0;
+}
+
+.principal_quemsomos div h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.principal_quemsomos div p {
+    border: 1px solid black;
+    border-top: 5px solid palevioletred;
+    font-size: 1.3rem;
+    padding: 1rem;
+
+}
