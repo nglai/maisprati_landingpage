@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "heyam";
+    src: url(../assets/Heyam.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.inicio {
+    width: 100%;
+    height: 13rem;
+    background-color: black;
+}
+
+.logo {
+    float: left;
+    /* border: 1px solid blue; */
+    width: 29.8%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+/* Cabecalho */
+
+.nome {
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: "heyam", Helvetica, sans-serif;
+}
+
+.nome h1 {
+    color: palevioletred;
+    font-size: 5rem;
+}
+
+.nome div {
+    padding-top: 1rem;
+}
+
+.barra {
+    height: 2rem;
+    width: 70%;
+    font-size: 1.5rem;
+
+}
+
+.botao_pesquisa {
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.navegacao {
+    /* border: 1px solid pink; */
+    float: right;
+    width: 29.8%;
+    text-align: right;
+}
+
+
+.navegacao ul li {
+    color: aliceblue;
+    float: left;
+    padding: 2rem 0 0 3rem;
+}
+
+.navegacao ul li a {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* barra de opcoes */
+
+.opcoes {
+    background-color: palevioletred;
+    height: 5vh;
+}
+
+.opcoes ul li{
+    float: left;
+    font-size: 1.5rem;
+    padding-left: 15%;
+    margin-top: 0.4%;
+}
+
+.opcoes ul li a{
+    color: black;
+    font-weight: 900;
+}
+
+/* Main */
+.principal {
+    width: 100%;
+}
+
+.principal_linha a {
+    float: left;
+    width: 20%;
+    height: 45vh;
+    margin: 4% 0 0 4%;
+}
+
+.principal_linha a img {
+    width: 100%;
+    height: 80%;
+}
+
+.principal_linha a p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    color: black;
+}
+
+/* Footer */
+
+.rodape {
+    background-color: black;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    height: 25vh;
+}
+
+.rodape h3 {
+    color: palevioletred;
+    font-size: 1.3rem;
+}
+
+.rodape li, .rodape a{
+    color:azure;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.rodape div {
+    float: left;
+    padding-left: 15%;
+}
