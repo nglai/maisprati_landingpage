@@ -15,4 +15,13 @@ CONTEÚDO MÍNIMO DA LANDING PAGE:
 - Ação de botão de chamada para ação (por exemplo, exibir uma mensagem de agradecimento ou redirecionar para outra página, utilizando JS, claro).
 - Escolha uma paleta de cores harmoniosa e fontes apropriadas.
 
+
+NOVAS FEATURES (NO MÍNIMO ESSAS):
+
+- Crie uma branche adicional para o desenvolvimento dos novos recursos do projeto;
+- Reestruture a aplicação para que ela seja estruturada através de Grid e Flexbox;
+- Faça com que as transições sejam assíncronas através de: ajax, fetch e promises;
+- Adicione operações CRUD com o LocalStorage;
+- Responsividade completa.
+
 [Link do GitHub Pages da LandingPage](https://nglai.github.io/maisprati_landingpage/index.html)
