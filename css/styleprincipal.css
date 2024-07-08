@@ -132,7 +132,7 @@ a {
 
 /* Fim Menu */
 
-/* Inicio Menu menor */
+/* Inicio Menu menor - hamburguer */
 .menu_menor {
     display: none;
     position: fixed;
@@ -144,6 +144,7 @@ a {
     font-size: 1.2rem;
     background-color: rgba(216, 112, 147, 0.95);
     border: 5px solid white;
+    z-index: 1;
 }
 
 .menu_menor_icone {
@@ -256,3 +257,99 @@ a {
     }
 
 }
+
+/* Carrosel */
+.carrosel_container {
+    margin: 0 auto;
+    height: 500px;
+    overflow: hidden;
+    border: 4px solid palevioletred;
+}
+
+.carrosels {
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+
+.carrosels input {
+    display: none;
+}
+
+.carrosel {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.carrosel img {
+    width: 100%;
+    height: 500px;
+}
+
+.manual_navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: -4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: palevioletred;
+}
+
+#radio1:checked  ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigation_auto div {
+    border: 2px solid palevioletred;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation_auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 27.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation_auto .auto_btn1 {
+    background-color: palevioletred;
+}
+#radio2:checked ~ .navigation_auto .auto_btn2 {
+    background-color: palevioletred;
+}
+#radio3:checked ~ .navigation_auto .auto_btn3 {
+    background-color: palevioletred;
+}
+
+/* Fim Carrosel */
+
